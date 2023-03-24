@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/rankings.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="./css/rankingsresp.css">
+        <title>Rankings</title>
+</head>
+<body>
+     <!-- nav -->
+     <nav class="navbar navbar-expand-lg paddingfornav navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html"><img src=".//imgs/logo1.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse gap30px" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap50px">
+                    <li class="nav-item">
+                        <a class="nav-link active worksans text-white" aria-current="page" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active worksans text-white" aria-current="page" href="rankings.html">Rankings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active worksans text-white" aria-current="page" href="connectwallet.html">Connect a wallet</a>
+                    </li>
+                </ul>
+                <div class="btnf">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10 13.1245C8.57364 13.1245 7.17241 13.5 5.93717 14.2132C4.70194 14.9265 3.67623 15.9523 2.96317 17.1877C2.79061 17.4866 2.40837 17.5891 2.10942 17.4165C1.81047 17.2439 1.70802 16.8617 1.88058 16.5628C2.70335 15.1374 3.88686 13.9537 5.31212 13.1307C6.73739 12.3078 8.3542 11.8745 10 11.8745C11.6458 11.8745 13.2626 12.3078 14.6879 13.1307C16.1131 13.9537 17.2966 15.1374 18.1194 16.5628C18.292 16.8617 18.1895 17.2439 17.8906 17.4165C17.5916 17.5891 17.2094 17.4866 17.0368 17.1877C16.3238 15.9523 15.2981 14.9265 14.0628 14.2132C12.8276 13.5 11.4264 13.1245 10 13.1245Z"
+                            fill="white" />
+                    </svg>
+                    <a href="signup.html" class="worksans">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav-end -->
+     <!-- header -->
+     <header>
+        <div class="container">
+            <h1 class="worksans p-0 m-0 brwsmarkh">Top Creators</h1>
+            <p class="worksans p-0 mt-3 brwsmarkp">Check out top ranking NFT artists on the NFT Marketplace.</p>
+        </div>
+        <div class="container">
+            <div class="frame249 d-md-flex d-lg-flex d-none">
+                <div class="createdtab">
+                    <h1 class="worksans ">Today</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">This week</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">This Month</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">All time</h1>
+                    
+                </div>
+            </div>
+            <div class="frame249 d-md-none d-lg-none d-flex">
+                <div class="createdtab">
+                    <h1 class="worksans ">1d</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">7d</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">30d</h1>
+                    
+                </div>
+                <div class="createdtab">
+                    <h1 class="worksans ">All time</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+    <!-- section -->
+    <section class="rankings-section">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableheader">
+                        <div class="rankartist">
+                            <p class="p-0 m-0  spacemono">#</p>
+                            <p class="p-0 m-0  spacemono">Artist</p>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0  spacemono d-lg-block d-md-block d-none" style="width: 33%;">Change</p>
+                            <p class="p-0 m-0  spacemono d-lg-block d-md-block d-none" style="width: 33%;">NFTs Sold</p>
+                            <p class="p-0 m-0  spacemono" style="width: 33%;">Volume</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">1</p>
+                            <img src="./imgs/womanavatar.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">2</p>
+                            <img src="./imgs/glassavatar.png" alt="">
+                            <h1 class="worksans p-0 m-0">Alfredo Septimus</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">3</p>
+                            <img src="./imgs/womanavatar2.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">4</p>
+                            <img src="./imgs/womanavatar3.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">5</p>
+                            <img src="./imgs/glassavatar2.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">6</p>
+                            <img src="./imgs/glassavatar4.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">7</p>
+                            <img src="./imgs/glassavatar5.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">8</p>
+                            <img src="./imgs/glassavatar6.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">9</p>
+                            <img src="./imgs/glassavatar7.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="tableitem">
+                        <div class="rankartist">
+                            <p class="spacemono p-2 m-0 dotone">10</p>
+                            <img src="./imgs/womanavatar.png" alt="">
+                            <h1 class="worksans p-0 m-0">Ruben Carder</h1>
+                        </div>
+                        <div class="rankstats">
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-success" style="width: 33%;">+1.41%</p>
+                            <p class="p-0 m-0 spacemono d-lg-block d-md-block d-none text-white" style="width: 33%;">602</p>
+                            <p class="p-0 m-0 spacemono ethforresp text-white" style="width: 33%;">12.4 ETH</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- section-end -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between pt-5">
+                    <div class="col-lg-4">
+                        <div class="nftmarketinfo">
+                            <div class="logoforfooter">
+                                <img src="./imgs/logoforfooter.png" alt="logo">
+                                <h2 class="p-0 m-0 spacemono"></h2>
+                            </div>
+                            <div class="additional-footer">
+                                <p class="worksans p-0 m-0">NFT marketplace UI created with Anima for Figma.</p>
+                                <p class="worksans p-0 mt-4">Join our community</p>
+                            </div>
+                            <div class="footer-icons">
+                                <img src=".//imgs/discord.png" alt="">
+                                <img src="./imgs/Youtube.png" alt="">
+                                <img src="./imgs/twitter.png" alt="">
+                                <img src=".//imgs/instagram.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="explore">
+                            <h2 class="spacemono m-0 p-0">Explore</h2>
+                        </div>
+                        <div class="footer-pages">
+                            <p class="m-0 p-0 worksans">Marketplace</p>
+                            <p class="m-0 p-0 worksans">Rankings</p>
+                            <p class="m-0 p-0 worksans">Connect a wallet</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="subscribe-footer">
+                            <h2 class="p-0 m-0 spacemono">Join our weekly digest</h2>
+                            <div class="subscribe-form-info">
+                                <p class="p-0 m-0 worksans">Get exclusive promotions & updates straight to your inbox.
+                                </p>
+                                <div class="inpemail">
+                                    <input type="email" placeholder="Enter your email here" class="emailinput worksans">
+                                    <div class="emailbtn">
+                                        <p class="worksans p-0 m-0">Subscribe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="col-lg-12">
+
+                    <div class="horizontal-line">
+                        <p class="worksans p-o m-0">Ⓒ NFT Market. Use this template freely.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    
+</body>
+</html>
