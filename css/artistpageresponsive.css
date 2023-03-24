@@ -1,0 +1,118 @@
+@media only screen and (max-width: 500px) {
+
+    .gap50px {
+        gap: 0px !important;
+    }
+
+    .paddingfornav {
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../imgs/burger.png) !important;
+    }
+
+    .btnf {
+        width: 100%;
+    }
+
+    .icontower {
+        position: absolute;
+        bottom: -20%;
+        left: 33.3%;
+    }
+
+    .artistnamebuttons h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+    }
+
+    .artistnamebuttons {
+        display: block;
+    }
+
+    .buttons-1 {
+        display: block;
+    }
+
+    .btn-501 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .btn-502 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .artistnumbers h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .artistnumbers p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .bio {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .intfriend {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+
+    .createdtab h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+    margin: 0;
+    }
+
+    .typeform {
+        width: 100%;
+    }
+
+    .btn210 {
+        width: 100%;
+    }
+
+    .inpemail {
+        display: block;
+        background: none;
+        width: 100%;
+    }
+
+    .emailinput {
+        width: 100%;
+        height: 46px
+    }
+
+    .emailbtn {
+        width: 100%;
+        height: 46px;
+        margin-top: 16px;
+        
+    }
+
+   
+
+}

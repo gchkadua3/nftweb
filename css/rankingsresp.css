@@ -1,0 +1,138 @@
+@media only screen and (max-width: 500px) {
+
+    .gap50px {
+        gap: 0px !important;
+    }
+
+    .paddingfornav {
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../imgs/burger.png) !important;
+    }
+
+    .btnf {
+        width: 100%;
+    }
+
+    .brwsmarkh {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .brwsmarkp {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        
+    }
+
+   header {
+    margin-top: 30px;
+   }
+
+   .rankstats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    }
+
+    .rankartist h1 {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .rankartist img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ethforresp {
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 110% !important;
+        color: #FFFFFF !important;
+    }
+    
+
+    .tableitem {
+        padding: 12px 20px;
+    }
+
+    .rankartist p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #858584;
+    }
+
+    .rankstats p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #858584;
+    }
+
+    .typeform {
+        width: 100%;
+    }
+
+    .btn210 {
+        width: 100%;
+    }
+
+    .inpemail {
+        display: block;
+        background: none;
+        width: 100%;
+    }
+
+    .emailinput {
+        width: 100%;
+        height: 46px
+    }
+
+    .emailbtn {
+        width: 100%;
+        height: 46px;
+        margin-top: 16px;
+        
+    }
+
+    .rankstats p {
+        width: inherit !important;
+    }
+
+    .rankartist p {
+        padding: 0px !important;
+        background: none !important;
+    }
+
+    .createdtab h1 {
+        font-size: 16px;
+    }
+
+    .frame249 {
+        margin-top: 30px;
+    }
+
+    .tableheader {
+        margin-top: 0px;
+    }
+
+}
